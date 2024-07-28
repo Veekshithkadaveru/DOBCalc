@@ -8,7 +8,8 @@
     tools:context=".MainActivity"
     android:orientation="vertical"
     android:background="@color/bgColor"
-    android:gravity="center_horizontal">
+    android:gravity="center_horizontal"
+    android:padding="16dp">
 
     <TextView
         android:layout_width="wrap_content"
@@ -20,5 +21,32 @@
         android:textSize="24sp"
         android:textStyle="bold"
         />
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="16dp"
+        android:text="Age"
+        android:padding="10dp"
+        android:background="@color/text_blue"
+        android:textColor="@color/white"
+        android:textColorLink="#FF03DAC5"
+        android:textSize="24sp"
+        android:textStyle="bold"
+        />
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="16dp"
+        android:text="IN MINUTES"
+        android:textColor="@color/text_blue"
+        android:textColorLink="#FF03DAC5"
+        android:textSize="24sp"
+        android:textStyle="bold"
+        />
 
+    <Button
+        android:id="@+id/button"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Button" />
 </LinearLayout>
