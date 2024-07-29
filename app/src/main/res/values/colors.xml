@@ -5,4 +5,5 @@
     <color name="text_blue">#264653</color>
     <color name="bgColor">#e9c46a</color>
     <color name="btnColor">#2a9d8f</color>
+    <color name="lightGray">#b7b7a4</color>
 </resources>

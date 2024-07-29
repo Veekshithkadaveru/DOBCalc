@@ -45,8 +45,48 @@
         />
 
     <Button
-        android:id="@+id/button"
-        android:layout_width="match_parent"
+        android:id="@+id/buttonDatePicker"
+        android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:text="Button" />
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="16dp"
+        android:text="04.01.1997"
+        android:textColor="@color/text_blue"
+        android:textColorLink="#FF03DAC5"
+        android:textSize="20sp"
+        android:textStyle="bold"
+        />
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="16dp"
+        android:text="Selected Date"
+        android:textColor="@color/lightGray"
+        android:textColorLink="#FF03DAC5"
+        android:textSize="24sp"
+        android:textStyle="bold"
+        />
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="16dp"
+        android:text="540101969072"
+        android:textColor="@color/text_blue"
+        android:textColorLink="#FF03DAC5"
+        android:textSize="36sp"
+        android:textStyle="bold"
+        />
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="16dp"
+        android:text="Selected Date"
+        android:textColor="@color/lightGray"
+        android:textColorLink="#FF03DAC5"
+        android:textSize="24sp"
+        android:textStyle="bold"
+        />
 </LinearLayout>
