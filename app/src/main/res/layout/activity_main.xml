@@ -70,6 +70,7 @@
         android:textStyle="bold" />
 
     <TextView
+        android:id="@+id/tvAgeInMinutes"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:layout_marginTop="16dp"
@@ -83,7 +84,7 @@
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:layout_marginTop="16dp"
-        android:text="Selected Date"
+        android:text="is your age in minutes"
         android:textColor="@color/lightGray"
         android:textColorLink="#FF03DAC5"
         android:textSize="24sp"
